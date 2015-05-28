@@ -13,6 +13,8 @@
 		61D74D0B1B16BF8500D24F5F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61D74D0A1B16BF8500D24F5F /* Images.xcassets */; };
 		61D74D0E1B16BF8500D24F5F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61D74D0C1B16BF8500D24F5F /* LaunchScreen.xib */; };
 		61D74D1A1B16BF8500D24F5F /* UITableViewAddingSearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D74D191B16BF8500D24F5F /* UITableViewAddingSearchTests.swift */; };
+		61D74D241B16BFCF00D24F5F /* Candy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D74D231B16BFCF00D24F5F /* Candy.swift */; };
+		61D74D261B16C00A00D24F5F /* CandyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D74D251B16C00A00D24F5F /* CandyTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		61D74D131B16BF8500D24F5F /* UITableViewAddingSearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITableViewAddingSearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		61D74D181B16BF8500D24F5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		61D74D191B16BF8500D24F5F /* UITableViewAddingSearchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewAddingSearchTests.swift; sourceTree = "<group>"; };
+		61D74D231B16BFCF00D24F5F /* Candy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Candy.swift; sourceTree = "<group>"; };
+		61D74D251B16C00A00D24F5F /* CandyTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CandyTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 				61D74D0A1B16BF8500D24F5F /* Images.xcassets */,
 				61D74D0C1B16BF8500D24F5F /* LaunchScreen.xib */,
 				61D74D011B16BF8500D24F5F /* Supporting Files */,
+				61D74D231B16BFCF00D24F5F /* Candy.swift */,
+				61D74D251B16C00A00D24F5F /* CandyTableViewController.swift */,
 			);
 			path = UITableViewAddingSearch;
 			sourceTree = "<group>";
@@ -213,7 +219,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				61D74D061B16BF8500D24F5F /* ViewController.swift in Sources */,
+				61D74D241B16BFCF00D24F5F /* Candy.swift in Sources */,
 				61D74D041B16BF8500D24F5F /* AppDelegate.swift in Sources */,
+				61D74D261B16C00A00D24F5F /* CandyTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
